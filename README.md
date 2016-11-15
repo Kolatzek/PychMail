@@ -27,9 +27,10 @@ Configuration is a simple python file (.py) in *config* folder. The content is:
 ```
 
 ##Usage
-```
-bash
+```bash
     ./PychMail.py <config_file_name_without_.py_from_config_folder>
+```
     or
+```bash
     python3 PychMail.py <config_file_name_without_.py_from_config_folder>
 ```
