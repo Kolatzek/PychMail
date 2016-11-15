@@ -11,6 +11,7 @@ PychMail is a FetchMail similar software. The main difference is the usage of SM
 
 Configuration is a simple python file (.py) in *config* folder. The content is:
 
+```python
     IMAP4_SSL_Server = IMAP server host name
     IMAP_User = IMAP user name
     IMAP_Password = IMAP user password
@@ -23,10 +24,12 @@ Configuration is a simple python file (.py) in *config* folder. The content is:
     SMTP_Password = SMTP user password
     SMTP_To = receiver of the forwarded message ["abc@foo.com", 'abc@bar.com'] or simply "abc@foo.com"
     SMTP_From = email address of the SMTP user
+```
 
 ##Usage
-```bash
+```
+bash
     ./PychMail.py <config_file_name_without_.py_from_config_folder>
-    oder
+    or
     python3 PychMail.py <config_file_name_without_.py_from_config_folder>
 ```
